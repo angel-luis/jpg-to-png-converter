@@ -4,8 +4,17 @@ Small project for learning Python. This script converts all the _jpg_ files from
 
 ## Usage
 
-Indicates **input** folder as first parameter and **output** folder as second.
+Install the **Pillow** library with **pip**.
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install --upgrade Pillow
+```
+
+Indicate the **input** folder as first parameter and **output** folder as second
 
 ⚠️ Remember to add the slash at the end of each folder directory.
 
-`python converter.py input/ output/`
+```bash
+python converter.py input/ output/
+```
